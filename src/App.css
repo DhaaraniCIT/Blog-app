@@ -1,0 +1,59 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+.header span{
+  font-size: 25px;
+}
+.first{
+  background-image:url('./logo-og.png');
+  position:relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 720px;
+
+}
+.first::before{
+  position: absolute;
+  content: "";
+left: 0; right: 0;
+top: 0; bottom: 0;
+background: rgba(0,0,0,0.6);
+}
+.content{
+    padding-top: 300px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    position: absolute;
+}
+.content h1{
+  font-weight: 700;
+  font-size: 2.7rem;
+}
+.content .btn-light{
+  
+  margin-top: 20px;
+}
+#posts{
+  padding-top: 50px;
+  padding-bottom: 70px;
+}
+#post .heading h1{
+  margin-bottom: 30px;
+}
+.description {
+  overflow: hidden;
+   text-overflow: ellipsis;
+   display: -webkit-box;
+   -webkit-line-clamp: 3; /* number of lines to show */
+   -webkit-box-orient: vertical; 
+   cursor: pointer;
+}
+@media (min-width: 300px) and (max-width: 425px){
+   
+  .content{
+    text-align: center;
+    padding-top: 170px;
+  }
+}

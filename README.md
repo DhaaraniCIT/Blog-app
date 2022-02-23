@@ -2,6 +2,10 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Deployment link
+
+https://priceless-noether-659f83.netlify.app/
+
 ## Available Scripts
 
 In the project directory, you can run:
